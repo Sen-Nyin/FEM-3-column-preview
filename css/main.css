@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+img {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+:root,
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0deg, 0%, 95%);
+}
+
+.btn {
+  font-size: 1.5rem;
+  background-color: hsl(0deg, 0%, 95%);
+  padding-inline: 3.15rem;
+  padding-block: 1.1rem 1.2rem;
+  border-radius: 100vh;
+  color: black;
+  mix-blend-mode: lighten;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+.btn:hover {
+  background-color: transparent;
+  color: hsl(0deg, 0%, 95%);
+  border: 2px solid hsl(0deg, 0%, 95%);
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4.9rem;
+  max-width: 32.7rem;
+  position: relative;
+}
+@media only screen and (min-width: 53.125em) {
+  .card {
+    max-width: 30.7rem;
+    width: 100%;
+    height: 50rem;
+  }
+}
+.card__container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+@media only screen and (min-width: 53.125em) {
+  .card__container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.card__container > :nth-child(1) {
+  background-color: hsl(31deg, 77%, 52%);
+  border-radius: 0.8rem 0.8rem 0 0;
+  padding-bottom: 5.6rem;
+}
+@media only screen and (min-width: 53.125em) {
+  .card__container > :nth-child(1) {
+    border-radius: 0.8rem 0 0 0.8rem;
+    padding-right: 5.6rem;
+    padding-bottom: 4.9rem;
+  }
+}
+.card__container > :nth-child(2) {
+  background-color: hsl(184deg, 100%, 22%);
+  margin-block: -0.8rem;
+  border-radius: 0.8rem;
+  z-index: 1;
+}
+@media only screen and (min-width: 53.125em) {
+  .card__container > :nth-child(2) {
+    margin: 0 -0.8rem;
+  }
+}
+.card__container > :nth-child(3) {
+  background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0 0 0.8rem 0.8rem;
+  padding-top: 5.6rem;
+}
+@media only screen and (min-width: 53.125em) {
+  .card__container > :nth-child(3) {
+    border-radius: 0 0.8rem 0.8rem 0;
+    padding-top: 4.9rem;
+    padding-left: 5.6rem;
+  }
+}
+.card__icon {
+  margin-bottom: 3.5rem;
+}
+.card__header {
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 2.5rem;
+}
+.card__text {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+@media only screen and (min-width: 53.125em) {
+  .card__text {
+    padding-bottom: 8.3rem;
+  }
+}/*# sourceMappingURL=main.css.map */
