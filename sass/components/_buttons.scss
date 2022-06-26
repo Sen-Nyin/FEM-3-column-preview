@@ -1,0 +1,21 @@
+@use '../abstracts'as a;
+@use '../base'as b;
+
+.btn {
+    font-size: 1.5rem;
+    background-color: a.$very-light-gray;
+    padding-inline: 3.15rem;
+    padding-block: 1.1rem 1.2rem;
+    border-radius: 100vh;
+    color: black;
+    mix-blend-mode: lighten;
+    cursor: pointer;
+    transition: background-color .25s ease, color .25s ease;
+
+    &:hover {
+        background-color: transparent;
+        color: a.$very-light-gray;
+        border: 2px solid a.$very-light-gray;
+        cursor: pointer;
+    }
+}
